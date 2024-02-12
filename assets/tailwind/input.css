@@ -1,0 +1,20 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  @font-face {
+    font-family: "iranyekanBakh";
+    font-weight: 400;
+    src: url("./../font/Bakh-new/Yekan-Bakh-FaNum-05-Medium.eot");
+    src: url("./../font/Bakh-new/Yekan-Bakh-FaNum-05-Medium.eot")
+        format("embedded-opentype"),
+      url("./../font/Bakh-new/Yekan-Bakh-FaNum-05-Medium.eot") format("woff"),
+      url("./../font/Bakh-new/Yekan-Bakh-FaNum-05-Medium.eot")
+        format("truetype");
+  }
+
+  body {
+    font-family: iranyekanBakh;
+  }
+}
